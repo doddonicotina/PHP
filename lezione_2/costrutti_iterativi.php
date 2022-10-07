@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>set="UTF-8">
+<head>
     <meta http-equiv="X-UA-Compatib
     <meta chale" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,26 +14,19 @@
 </head>
 <body>
     <p>
-        Date  PHP <br>
+        for <br>
     </p>
 
     <?php
-        date_default_timezone_set('Europe/Rome');
-        echo "<h3>Siamo in Italia, sono le: </h3>". date("H:i:s")."<br>";
-        date_default_timezone_set('America/New_York');
-        echo "<h3>Siamo a New York, sono le: </h3>". date("H:i:s")."<br>";
-    
+       echo "<h3>Il for in php </h3>";
+       $len = 10;
+       $counter;
+       for ($counter = 0; $counter <= $len; $counter++):
+       
+            echo "$counter <br> ";
+       endfor;
+       
     ?>
-
-    <form method="post">
-     Inserisci continente e città in inglese e ti dirò che ore sono, es: Europe/Rome = <input type="text" location="location"><br>
-     <input type="submit">   
-    </form>
-    <?php
-        date_default_timezone_set($_POST["location"]);
-        echo "<h3> Sono le </h3>".date("H:i:s");
-    ?> 
-    
     <h1>
         Costrutto di iterazione indefinita: While
     </h1>
@@ -41,11 +34,12 @@
     <?php
     $total = 0;
     $i = 0;
-    while ($total < $N ):
+    while ($total < $len ):
         $i++;
+        $total += $i;
+        echo "$total <br>";
+    endwhile;
         ?>
-    
-    
-   
+  
 </body>
 </html>
