@@ -53,9 +53,63 @@
             endif;
 
 
-            
-            
-        ?>
+            $nomi = array("Giovanni","Domenico","Sara","Giuseppe");
+            $eta = array(17,18,14,16);
+            echo "<table>";
+            foreach ($nomi as $val ):
+                echo "
+                
+                <th>
+                    $val
+                </th>
+               
+                ";
+                $val++;
+            endforeach;
+            echo "<tr>";
+            foreach ($eta as $val ):
+                echo "
+                
+                <td>
+                    $val
+                </td>
+                
+                ";
+                $val++;
+            endforeach;
+            echo "</tr><br>";
+            echo "</table> <br>" ;
+
+
+
+            echo "<h1> ARRAY ASSOCIATIVI </h1>";
+            $autori = array("Einstein"=>"relatività",
+             "Avogadro"=> "Numero di moli",
+              "Galvani"=>"Pila",
+              "Codd"=> "Modello relazionale database");
+              print_r($autori);
+              echo "<table>";
+              foreach($autori as $key=>$value):
+                echo "<tr><td>$key</td><td>$value</td></tr>";
+              endforeach;
+              echo "</table> <br>";
+
+
+              ksort($autori);
+              echo "<table>";
+              foreach($autori as $key=>$value):
+                echo "<tr><td>$key</td><td>$value</td></tr>";
+              endforeach;
+              echo "</table><br>";
+
+
+              asort($autori);
+              echo "<table>";
+              foreach($autori as $key=>$value):
+                echo "<tr><td>$key</td><td>$value</td></tr>";
+              endforeach;
+              echo "</table><br>";
+              ?>
    
 </body>
 </html>
