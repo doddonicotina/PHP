@@ -22,7 +22,7 @@ function calcolaData($temp)
             }
 ```
 # Funzione implode
-### dato un array mi consente di ottenere una stringa in cui gli elementi sono separaty da un carattere che scegliamo
+Dato un array mi consente di ottenere una stringa in cui gli elementi sono separaty da un carattere che scegliamo
 
 ``` php
     $str = implode("*", $array);
