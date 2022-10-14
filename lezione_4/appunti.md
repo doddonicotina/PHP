@@ -23,6 +23,6 @@ function calcolaData($temp)
 ```
 
 
-<p style="text-align: center;">
+
 ### L'utilizzo di questo file è inteso con il codice scritto nella stessa gironata
-</p>
+
