@@ -27,5 +27,6 @@ function calcolaData($temp)
 ``` php
     $str = implode("*", $array);
 ```
-come primo parametro passiamo il carattere se paratore e quindi ``` "*" ``` e come secondo il vettore da dividere o appunto "implodere" ``` $array ```
+come primo parametro passiamo il carattere se paratore e quindi ``` "*" ``` e come secondo il vettore da dividere o appunto "implodere"
+``` $array ```
 ### L'utilizzo di questo file è inteso con il codice scritto nella stessa gironata
