@@ -6,10 +6,10 @@
 La variabile data_oggi è locale allo script ma non è visibile alla funzione 
 
  ```php
-            function calcolaData()
-            {
-               echo "La data calcolata = ".$data_oggi;     
-            }
+function calcolaData()
+{
+echo "La data calcolata = ".$data_oggi;     
+}
 ```
 
 
@@ -17,15 +17,15 @@ Quindi faremo così
 
 ```php
 function calcolaData($temp)
-            {
-               echo "La data calcolata = ".$temp;     
-            }
+{
+echo "La data calcolata = ".$temp;     
+}
 ```
 # Funzione implode
 Dato un array mi consente di ottenere una stringa in cui gli elementi sono separaty da un carattere che scegliamo
 
 ``` php
-    $str = implode("*", $array);
+$str = implode("*", $array);
 ```
 come primo parametro passiamo il carattere se paratore e quindi ``` "*" ``` e come secondo il vettore da dividere o appunto "implodere"
 ``` $array ```
