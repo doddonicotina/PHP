@@ -1,6 +1,6 @@
 # lezione_4
 
-## echo è un **costrutto** 
+### echo è un **costrutto** 
 
 ## Creiamo una funzione che calcoli la data 
 La variabile data_oggi è locale allo script ma non è visibile alla funzione 
