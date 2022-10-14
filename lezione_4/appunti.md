@@ -22,10 +22,10 @@ function calcolaData($temp)
             }
 ```
 # Funzione implode
-Dato un array mi consente di ottenere una stringa in cui gli elementi sono separaty da un carattere che scegliamo
+## dato un array mi consente di ottenere una stringa in cui gli elementi sono separaty da un carattere che scegliamo
 
 ``` php
     $str = implode("*", $array);
 ```
-
+come primo parametro passiamo il carattere se paratore e quindi ```php "*" ``` e come secondo il vettore da dividere o appunto "implodere" ```php $array ```
 ### L'utilizzo di questo file è inteso con il codice scritto nella stessa gironata
