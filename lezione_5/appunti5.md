@@ -23,4 +23,5 @@ esempio:
         echo "</ul>";
 ```
 risultato: 
+
  ![ Esempiio](https://github.com/doddonicotina/PHP/blob/main/images/Immagine%202022-10-15%20085226.png) 
